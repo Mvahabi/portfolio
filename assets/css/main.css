@@ -2849,8 +2849,16 @@ input, select, textarea {
 	ul {
 		list-style: disc;
 		margin: 0 0 2rem 0;
-		padding-left: 1rem;
+		padding-left: 0;
+		text-align: left;
 	}
+
+	p, ul {
+		padding: 0;
+		margin: 0;
+	}
+
+	
 
 		ul li {
 			padding-left: 0.5rem;
