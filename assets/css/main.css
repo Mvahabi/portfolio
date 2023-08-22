@@ -2858,7 +2858,11 @@ input, select, textarea {
 		margin: 0;
 	}
 
-	
+	ul ul {
+        list-style-type: circle;
+		padding-left: 0.6rem;
+
+    }
 
 		ul li {
 			padding-left: 0.5rem;
