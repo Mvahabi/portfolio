@@ -183,7 +183,7 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<section>
-							<form method="post" action="send-email.php">
+							<form action="send-email.php" method="post">
 								<!-- <div class="fields">
 									<div class="field">
 										<label for="name">Name</label>
@@ -201,7 +201,15 @@
 								<ul class="actions">
 									<li><input type="submit" value="Send Message" /></li>
 								</ul> -->
-								<h2>Contact Me </h2>
+
+
+									First Name: <input type="text" name="first_name"><br>
+									Last Name: <input type="text" name="last_name"><br>
+									Email: <input type="text" name="email"><br>
+									Message:<br><textarea rows="5" name="message" cols="30"></textarea><br>
+									<input type="submit" name="submit" value="Submit">
+
+								<!-- <h2>Contact Me </h2>
 								<?php echo((!empty($errorMessage)) ? $errorMessage : '') ?>
 								<?php echo((!empty($successMessage)) ? $successMessage : '') ?>
 								<div>
@@ -230,7 +238,8 @@
 									>
 									Submit
 									</button>
-								</div>
+								</div> -->
+
 							</form>
 						</section>
 												
