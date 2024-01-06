@@ -53,7 +53,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $allErrors = join('<br/>', $errors);
     $errorMessage = "<p style='color: red;'>{$allErrors}</p>";
   } else {
-    $toEmail = 'mailtrap.club@gmail.com';
+    $toEmail = 'mahyarvahabi@gmail.com';
     $emailSubject = 'New email from your contaсt form';
 
       // Create a new PHPMailer instance
