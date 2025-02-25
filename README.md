@@ -7,4 +7,4 @@ I wanted this to be a simple portfolio and a summary
 of my past projects and experinces in the software
 field. 
 
-Here is the link: https://mvahabi.github.io/website/
+Here is the link: https://mvahabi.github.io/portfolio/
