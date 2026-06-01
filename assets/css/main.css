@@ -3958,15 +3958,16 @@ input, select, textarea {
 					margin-right: auto;
 				}
 
+				#main > .posts > article.left-aligned {
+					text-align: left;
+				}
+
+				#main > .posts > article.left-aligned .image {
+					margin-left: auto;
+					margin-right: auto;
+				}
+
 			}
-
-		@media screen and (max-width: 736px) {
-
-			#main > * {
-				padding: 2rem 2rem 0.1rem 2rem ;
-			}
-
-		}
 
 		@media screen and (max-width: 480px) {
 
